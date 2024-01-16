@@ -3,7 +3,7 @@
 @File    :   main.py
 @Time    :   2024/01/16 14:06:11
 @Author  :   Loopade
-@Version :   1.0
+@Version :   1.1
 @Desc    :   微信多开工具
 """
 import os
@@ -33,10 +33,10 @@ def is_weixin_logined():
     pl = psutil.pids()
     for pid in pl:
         if psutil.Process(pid).name() == "WeChatUtility.exe":
-            print("微信已登录：", pid)
+            print("weixin is logined:", pid)
             return True
     else:
-        print("微信未登录")
+        print("weixin is not logined")
         return False
 
 
