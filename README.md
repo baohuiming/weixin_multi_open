@@ -1,0 +1,1 @@
+程序主文件为main.py，anhkgg.exe为解除微信多开限制的软件，双击run.bat即可运行程序。
